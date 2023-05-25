@@ -62,14 +62,8 @@ h1 {
     padding: 10px;
 }
 
-footer {
+.footercolor {
     background-color: #457b9d;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   bottom:0px;
-   width: 100%;
 }
 
 footer ul {
