@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;}
+body {
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+    background-color: #f1faee;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #a8dadc;
+}
+
+.logo {
+    width: 300px;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar a:hover {
+    color: #555;
+}
+h1 {
+    margin-bottom: 15px;
+}
+
+.classp {
+    margin: 10px;
+    padding: 10px;
+}
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: normal;
+}
+
+.contenedor2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.filas {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+
+.imagen-central {
+    max-width: 50%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #457b9d;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   bottom:0px;
+   width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    margin-right: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #d8d6d6;
+}
+
+footer a:hover {
+    color: #111111;
+}
+.footerinterno {
+    background-color: #457b9d;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   bottom:0px;
+   width: 100%;
+}
+.mapa {
+    width: 300px;
+}
+
+.quienes {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.quienes p {
+    margin-top: 50px;
+}
+
+.quienes h1 {
+    margin-top: 20px;
+}
+
+.filacliente {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .imagencliente {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+  }
+  
+  .imagencliente img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .imagencliente h3 {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .filaservicios {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .imagenservicios {
+    width: 33%;
+    margin: 10px;
+  }
+
+  .imagenservicios img {
+    width: 100%;
+    height: auto;
+  }
+
+form {
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  input, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"], input[type="reset"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #e63946;
+  }
+  
