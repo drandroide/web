@@ -19,10 +19,20 @@ body {
    width: 100%;
 }
 
+.navflex li a:hover {
+    background-color: #92d6d8;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
 .navcolor{
     background-color: #a8dadc;
 }
 
+.navred {
+    display: flex;
+    justify-content: space-between;
+}
 h1 {
     margin-bottom: 15px;
 }
@@ -63,37 +73,33 @@ h1 {
 }
 
 .footercolor {
-    background-color: #457b9d;
+    background-color:  #457b9d;
+    
 }
 
-footer ul {
+.footredes {
     list-style-type: none;
-}
-
-footer li {
-    margin-right: 20px;
-}
-
-footer a {
-    text-decoration: none;
-    color: #d8d6d6;
-}
-
-footer a:hover {
-    color: #111111;
-}
-.footerinterno {
-    background-color: #457b9d;
-    padding: 20px;
-    position: fixed;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-   bottom:0px;
-   width: 100%;
+    justify-content: space-between;
+    margin-left: -35px;
 }
-.mapa {
-    width: 300px;
+
+.footitle{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footnos {
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+.footredes li {
+    padding: 5px;
+}
+
+.footredes img {
+    width: 40px;
 }
 
 .quienes {
