@@ -37,6 +37,20 @@ h1 {
     margin-bottom: 15px;
 }
 
+.carrousel {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.carroback {
+    background-color: #66666683;
+    font-weight: bold;
+}
+
+.carroback h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .classp {
     margin: 10px;
     padding: 10px;
@@ -58,6 +72,26 @@ h1 {
     padding: 20px;
 }
 
+.texto-central {
+    margin-top: 25px;
+    padding-bottom: 20px;
+    border-bottom: #e63946 2px solid;
+}
+
+.texto-central p{
+    text-align: left;
+    line-height: 2rem;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.noticias{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: #f7f8f7;
+}
 .filas {
     display: flex;
     flex-direction: row;
@@ -66,10 +100,20 @@ h1 {
 
 
 .imagen-central {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
-    margin: 10px;
     padding: 10px;
+    border: #fa848e 4px solid;
+    border-radius: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagen-central img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footercolor {
@@ -92,6 +136,10 @@ h1 {
 .footnos {
     list-style-type: none;
     margin-left: -30px;
+}
+
+.footnos li a {
+    text-decoration: none;
 }
 
 .footredes li {
