@@ -56,14 +56,12 @@ h1 {
     padding: 10px;
 }
 .contenedor {
-    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow-wrap: normal;
 }
 
 .contenedor2 {
@@ -91,11 +89,6 @@ h1 {
     justify-content: center;
     margin-top: 40px;
     background-color: #f7f8f7;
-}
-.filas {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
 }
 
 
@@ -164,45 +157,110 @@ h1 {
     margin-top: 20px;
 }
 
-.filacliente {
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  .imagencliente {
-    display: inline-block;
-    width: 30%;
-    margin: 10px;
-  }
-  
-  .imagencliente img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .imagencliente h3 {
-    margin-top: 5px;
-    font-size: 16px;
-    font-weight: bold;
-  }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "area1 area2 area3"
+        "area4 area5 area6";
+    gap: 10px 10px;
+}
 
-  .filaservicios {
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
+.item1 { grid-area: area1; }
+.item2 { grid-area: area2; }
+.item3 { grid-area: area3; }
+.item4 { grid-area: area4; }
+.item5 { grid-area: area5; }
+.item6 { grid-area: area6; }
+
+@media (max-width: 992px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "area1 area2"
+            "area3 area4"
+            "area5 area6";
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "area1"
+            "area2"
+            "area3"
+            "area4"
+            "area5"
+            "area6";
+    }
+}
+
+.nuestros {
+    padding: 20px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.nuestros h1 {
+    text-transform: uppercase;
+}
+
+.grid-pad {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-pad img{
+    width: 70%;
+}
+
+.clientes{
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-radius: 40px;
+}
+
+.servicios {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 50px;
   }
 
-  .imagenservicios {
-    width: 33%;
-    margin: 10px;
-  }
-
-  .imagenservicios img {
-    width: 100%;
+.imagenservicios {
+    max-width: 50%;
     height: auto;
+    padding: 10px;
+    border: #ffffff 4px solid;
+    border-radius: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  .texto-servicios {
+    margin-top: 45px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.cardmar {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.card-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+.card-text {
+    font-style: italic;
+    text-align: center;
+}
 
 form {
     padding: 20px;
