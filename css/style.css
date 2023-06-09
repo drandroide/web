@@ -81,7 +81,10 @@ body {
   border-radius: 40px;
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  transition: transform 0.3s ease-in-out; }
+  .imagen-central:hover {
+    transform: scale(1.1); }
   .imagen-central img {
     display: block;
     margin-left: auto;
