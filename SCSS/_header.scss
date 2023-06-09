@@ -9,7 +9,7 @@
 
   li {
     a:hover {
-      background-color: $secondary-color;
+      background-color: $hover-color;
       border-radius: 10px;
       font-weight: bold;
     }
@@ -17,10 +17,10 @@
 }
 
 .navcolor {
-  background-color: $primary-color;
+  background-color: $navbar-color;
 
   .dropdown-menu {
-    background-color: $primary-color;
+    background-color: $navbar-color;
 
     .navred {
       display: flex;
