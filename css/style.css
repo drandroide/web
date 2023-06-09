@@ -1,0 +1,235 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.8rem;
+  font-size: 1.1rem;
+  background-color: #f1faee; }
+
+.logo {
+  width: 300px; }
+
+.navflex {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%; }
+  .navflex li a:hover {
+    background-color: #92d6d8;
+    border-radius: 10px;
+    font-weight: bold; }
+
+.navcolor {
+  background-color: #a8dadc; }
+  .navcolor .dropdown-menu {
+    background-color: #a8dadc; }
+    .navcolor .dropdown-menu .navred {
+      display: flex;
+      justify-content: space-between; }
+
+.carrousel {
+  margin-top: 10px;
+  border-radius: 5px; }
+  .carrousel .carroback {
+    background-color: #66666683;
+    font-weight: bold; }
+    .carrousel .carroback h5 {
+      text-transform: uppercase;
+      font-weight: bold; }
+
+.classp {
+  margin: 10px;
+  padding: 10px; }
+
+.contenedor {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.contenedor2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px; }
+
+.texto-central {
+  margin-top: 25px;
+  padding-bottom: 20px;
+  border-bottom: #e63946 2px solid; }
+  .texto-central p {
+    text-align: left;
+    line-height: 2rem;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 30px; }
+
+.noticias {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: #f7f8f7; }
+
+.imagen-central {
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  border: #fa848e 4px solid;
+  border-radius: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  .imagen-central img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+.footercolor {
+  background-color: #457b9d; }
+
+.footredes {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -35px; }
+  .footredes li {
+    padding: 5px; }
+    .footredes li img {
+      width: 40px; }
+
+.footitle {
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.footnos {
+  list-style-type: none;
+  margin-left: -30px; }
+  .footnos li a {
+    text-decoration: none; }
+
+.quienes {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px; }
+  .quienes h1 {
+    margin-top: 20px; }
+  .quienes p {
+    margin-top: 50px; }
+
+.cardmar {
+  margin-top: 70px;
+  margin-bottom: 70px; }
+
+.card-title {
+  text-transform: uppercase;
+  text-align: center; }
+
+.card-text {
+  font-style: italic;
+  text-align: center; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "area1 area2 area3" "area4 area5 area6";
+  gap: 10px 10px; }
+  @media (max-width: 992px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: "area1 area2" "area3 area4" "area5 area6"; } }
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-areas: "area1" "area2" "area3" "area4" "area5" "area6"; } }
+
+.item1 {
+  grid-area: area1; }
+
+.item2 {
+  grid-area: area2; }
+
+.item3 {
+  grid-area: area3; }
+
+.item4 {
+  grid-area: area4; }
+
+.item5 {
+  grid-area: area5; }
+
+.item6 {
+  grid-area: area6; }
+
+.nuestros {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; }
+  .nuestros h1 {
+    text-transform: uppercase; }
+
+.grid-pad {
+  padding: 20px;
+  display: flex;
+  justify-content: center; }
+  .grid-pad img {
+    width: 70%; }
+
+.clientes {
+  margin-top: 40px;
+  background-color: #ffffff;
+  border-radius: 40px; }
+
+.servicios {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 50px; }
+
+.imagenservicios {
+  max-width: 50%;
+  height: auto;
+  padding: 10px;
+  border: #ffffff 4px solid;
+  border-radius: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.texto-servicios {
+  margin-top: 45px;
+  padding-bottom: 20px;
+  text-align: left; }
+
+form {
+  padding: 20px; }
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666; }
+
+input, textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px; }
+
+input[type="submit"], input[type="reset"] {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  border: none;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer; }
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+  background-color: #e63946; }

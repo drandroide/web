@@ -1,0 +1,30 @@
+.logo {
+  width: 300px;
+}
+
+.navflex {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+
+  li {
+    a:hover {
+      background-color: $secondary-color;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+  }
+}
+
+.navcolor {
+  background-color: $primary-color;
+
+  .dropdown-menu {
+    background-color: $primary-color;
+
+    .navred {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
