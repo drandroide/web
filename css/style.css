@@ -38,6 +38,14 @@ body {
     .carrousel .carroback h5 {
       text-transform: uppercase;
       font-weight: bold; }
+  .carrousel .slide-imagen {
+    object-fit: cover; }
+    @media (min-width: 768px) {
+      .carrousel .slide-imagen {
+        height: 500px; } }
+    @media (max-width: 767px) {
+      .carrousel .slide-imagen {
+        height: auto; } }
 
 .classp {
   margin: 10px;
